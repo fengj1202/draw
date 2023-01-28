@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T07:27:56.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tRlA0X-48nH5OhF9Lw8u" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T07:32:23.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TtdVUM_92RLTb8kkJWao" version="20.8.13" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1080" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1522" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,9 +36,9 @@
             <mxGeometry x="10" y="680" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Organization" treeRoot="1" id="5K4GqOeyXQ_Hfmsa3VyL-37">
+        <UserObject label="处理信息记录" treeRoot="1" id="5K4GqOeyXQ_Hfmsa3VyL-52">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="5K4GqOeyXQ_Hfmsa3VyL-8">
-            <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
+            <mxGeometry x="10" y="330" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="5K4GqOeyXQ_Hfmsa3VyL-9" value="ERP到货分摊信息表" style="swimlane;startSize=20;" vertex="1" parent="5K4GqOeyXQ_Hfmsa3VyL-5">
@@ -101,6 +101,20 @@
         </mxCell>
         <mxCell id="5K4GqOeyXQ_Hfmsa3VyL-32" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5K4GqOeyXQ_Hfmsa3VyL-31">
           <mxGeometry x="-0.5482" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5K4GqOeyXQ_Hfmsa3VyL-51" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5K4GqOeyXQ_Hfmsa3VyL-5" source="5K4GqOeyXQ_Hfmsa3VyL-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="370" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5K4GqOeyXQ_Hfmsa3VyL-53" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5K4GqOeyXQ_Hfmsa3VyL-51">
+          <mxGeometry x="-0.2301" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

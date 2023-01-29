@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T10:01:29.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OHiUaimsxVrOHY8ECoE9" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T10:02:51.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0uzn81RkXgL9164WZnAL" version="20.8.13" type="github">
   <diagram name="第 1 页" id="g-qNsY3XOJho--RJMxuT">
     <mxGraphModel dx="1154" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,11 @@
             <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="退货单成功完结" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-26">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-2">
+            <mxGeometry x="20" y="660" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-3" value="ERP退货单" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
           <mxGeometry x="190" width="170" height="1080" as="geometry" />
         </mxCell>
@@ -31,7 +36,7 @@
             <mxGeometry x="20" y="280" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="wsb-zRbCA9PMMpIkRakw-23" value="是否内加盟" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-23" value="是否外加盟" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
           <mxGeometry x="20" y="380" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-25" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-3" source="wsb-zRbCA9PMMpIkRakw-19" target="wsb-zRbCA9PMMpIkRakw-23">
@@ -76,6 +81,14 @@
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-22" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-21">
           <mxGeometry x="0.1309" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-23" target="wsb-zRbCA9PMMpIkRakw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-28" value="否,&lt;br&gt;MQ通知完结" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-27">
+          <mxGeometry x="0.034" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

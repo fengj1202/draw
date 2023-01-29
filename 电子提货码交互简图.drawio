@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T10:46:39.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VT49UnsXEN6cGegf3j0k" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T10:47:59.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PJwx9lPJjGVeMf5CEiEx" version="20.8.13" type="github">
   <diagram name="第 1 页" id="g-qNsY3XOJho--RJMxuT">
-    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,6 +118,9 @@
             <mxGeometry x="13" y="724" width="203" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-84" value="客户:初加工厦门仓&lt;br&gt;机构:初加工深圳仓" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
+          <mxGeometry x="146" y="784" width="54" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-5" target="wsb-zRbCA9PMMpIkRakw-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>

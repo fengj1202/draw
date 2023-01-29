@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T10:35:11.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GA-vw4_najJ2Woy7IZpv" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T10:46:39.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VT49UnsXEN6cGegf3j0k" version="20.8.13" type="github">
   <diagram name="第 1 页" id="g-qNsY3XOJho--RJMxuT">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
         </UserObject>
         <UserObject label="单据成功完结" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-26">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-2">
-            <mxGeometry x="20" y="768" width="120" height="60" as="geometry" />
+            <mxGeometry x="20" y="773" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="单据成功完结" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-65">
@@ -55,14 +55,14 @@
         </mxCell>
         <UserObject label="创建第二步单:&lt;br&gt;机构退货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-41">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
-            <mxGeometry x="7" y="509" width="203" height="60" as="geometry" />
+            <mxGeometry x="7" y="531" width="203" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-70" value="客户:0001&lt;br&gt;机构:初加工深圳仓" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
-          <mxGeometry x="126" y="30" width="54" height="60" as="geometry" />
+          <mxGeometry x="126" y="39" width="54" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-71" value="客户:初加工厦门仓&lt;br&gt;机构:初加工深圳仓" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
-          <mxGeometry x="126" y="580" width="54" height="60" as="geometry" />
+          <mxGeometry x="136" y="473" width="54" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-4" value="ERP发货单" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
           <mxGeometry x="550" width="250" height="1080" as="geometry" />
@@ -84,16 +84,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-49" value="查询外机构统计表,&lt;br&gt;外加盟机构是否有内加盟仓的销售纪录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
-          <mxGeometry x="13" y="505" width="203" height="80" as="geometry" />
+          <mxGeometry x="13" y="457" width="203" height="80" as="geometry" />
         </mxCell>
         <UserObject label="根据商品分类确定内加盟仓" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-50">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
-            <mxGeometry x="13" y="623" width="203" height="60" as="geometry" />
+            <mxGeometry x="13" y="575" width="203" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="创建第二步单:&lt;br&gt;机构提货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-51">
+        <UserObject label="创建第二步单:&lt;br&gt;创建机构提货单" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-51">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
-            <mxGeometry x="13" y="721" width="203" height="60" as="geometry" />
+            <mxGeometry x="13" y="664" width="203" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-57" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-4" source="wsb-zRbCA9PMMpIkRakw-50" target="wsb-zRbCA9PMMpIkRakw-51">
@@ -107,15 +107,17 @@
             <mxGeometry x="13" y="882" width="203" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="wsb-zRbCA9PMMpIkRakw-72" value="客户:初加工厦门仓&lt;br&gt;机构:初加工深圳仓" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
-          <mxGeometry x="136" y="790" width="54" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-73" value="客户:初加工深圳仓&lt;br&gt;机构:大客户事业部" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
           <mxGeometry x="126" y="950" width="54" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-74" value="客户:大客户事业部&lt;br&gt;机构:某某大客户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
           <mxGeometry x="126" y="1010" width="54" height="60" as="geometry" />
         </mxCell>
+        <UserObject label="触发机构提货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-76">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
+            <mxGeometry x="13" y="724" width="203" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-5" target="wsb-zRbCA9PMMpIkRakw-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -162,21 +164,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wsb-zRbCA9PMMpIkRakw-44" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-41" target="wsb-zRbCA9PMMpIkRakw-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="386" y="750" as="sourcePoint" />
-            <mxPoint x="436" y="700" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="409" y="680" />
-              <mxPoint x="100" y="680" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wsb-zRbCA9PMMpIkRakw-45" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-44">
-          <mxGeometry x="-0.2289" y="1" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-32" target="wsb-zRbCA9PMMpIkRakw-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="657.5000000000005" y="560" as="targetPoint" />
@@ -216,13 +203,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wsb-zRbCA9PMMpIkRakw-68" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-51" target="wsb-zRbCA9PMMpIkRakw-26">
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-79" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-76" target="wsb-zRbCA9PMMpIkRakw-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="446" y="860" as="sourcePoint" />
-            <mxPoint x="496" y="810" as="targetPoint" />
+            <mxPoint x="356" y="830" as="sourcePoint" />
+            <mxPoint x="406" y="780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="665" y="798" />
+              <mxPoint x="665" y="803" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-83" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-79">
+          <mxGeometry x="-0.1194" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-81" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-41" target="wsb-zRbCA9PMMpIkRakw-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="700" as="sourcePoint" />
+            <mxPoint x="456" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="409" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-82" value="接口调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-81">
+          <mxGeometry x="-0.389" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

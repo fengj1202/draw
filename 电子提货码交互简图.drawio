@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T09:40:30.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.13" etag="3gH1Rk9ujEwkqsOYoEol" type="github"><diagram name="第 1 页" id="g-qNsY3XOJho--RJMxuT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-29T09:44:08.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Sl5vaXJJR4O6p03bIJHW" version="20.8.13" type="github">
+  <diagram name="第 1 页" id="g-qNsY3XOJho--RJMxuT">
+    <mxGraphModel dx="2093" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-1" value="电子提货码流程简图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="720" height="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-2" value="日结" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
+          <mxGeometry x="20" width="120" height="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-3" value="ERP退货单" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
+          <mxGeometry x="140" width="120" height="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-4" value="ERP发货单" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
+          <mxGeometry x="260" width="460" height="2260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

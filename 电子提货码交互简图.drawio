@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T10:16:12.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PLqteM-VI6L5Clix8gpJ" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T10:23:09.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PArLKMnNy0NPJiFquKyi" version="20.8.13" type="github">
   <diagram name="第 1 页" id="g-qNsY3XOJho--RJMxuT">
     <mxGraphModel dx="1395" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,11 +20,11 @@
         </UserObject>
         <UserObject label="退货单成功完结" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-26">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-2">
-            <mxGeometry x="20" y="800" width="120" height="60" as="geometry" />
+            <mxGeometry x="20" y="860" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-3" value="ERP退货单" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
-          <mxGeometry x="300" width="290" height="1080" as="geometry" />
+          <mxGeometry x="300" width="250" height="1080" as="geometry" />
         </mxCell>
         <UserObject label="创建第一步退货单:&lt;br&gt;门店退货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-10">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
@@ -42,19 +42,60 @@
         <mxCell id="wsb-zRbCA9PMMpIkRakw-23" value="是否外加盟" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
           <mxGeometry x="7" y="320" width="203" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wsb-zRbCA9PMMpIkRakw-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-3" source="wsb-zRbCA9PMMpIkRakw-32" target="wsb-zRbCA9PMMpIkRakw-41">
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-42" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-3" source="wsb-zRbCA9PMMpIkRakw-32" target="wsb-zRbCA9PMMpIkRakw-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-32" value="查询外机构统计表,&lt;br&gt;外加盟机构最新的销售纪录是内加盟仓" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
           <mxGeometry x="7" y="440" width="203" height="80" as="geometry" />
         </mxCell>
-        <UserObject label="创建第二步退货单:&lt;br&gt;机构退货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-41">
+        <UserObject label="创建第二步单:&lt;br&gt;机构退货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-41">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-3">
             <mxGeometry x="7" y="560" width="203" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-4" value="ERP发货单" style="swimlane;startSize=20;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-1">
-          <mxGeometry x="590" width="210" height="1080" as="geometry" />
+          <mxGeometry x="550" width="250" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-4" source="wsb-zRbCA9PMMpIkRakw-49" target="wsb-zRbCA9PMMpIkRakw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-54" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-52">
+          <mxGeometry x="-0.26" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-4" source="wsb-zRbCA9PMMpIkRakw-49" target="wsb-zRbCA9PMMpIkRakw-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-56" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-55">
+          <mxGeometry x="-0.2494" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-49" value="查询外机构统计表,&lt;br&gt;外加盟机构是否有内加盟仓的销售纪录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
+          <mxGeometry x="13" y="560" width="203" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="根据商品分类确定内加盟仓" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-50">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
+            <mxGeometry x="13" y="680" width="203" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="创建第二步单:&lt;br&gt;机构提货单,流程全自动" treeRoot="1" id="wsb-zRbCA9PMMpIkRakw-51">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="wsb-zRbCA9PMMpIkRakw-4">
+            <mxGeometry x="13" y="800" width="203" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-57" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-4" source="wsb-zRbCA9PMMpIkRakw-50" target="wsb-zRbCA9PMMpIkRakw-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-174" y="890" as="sourcePoint" />
+            <mxPoint x="-124" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-59" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-4" source="wsb-zRbCA9PMMpIkRakw-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="76" y="960" as="sourcePoint" />
+            <mxPoint x="126" y="910" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wsb-zRbCA9PMMpIkRakw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-5" target="wsb-zRbCA9PMMpIkRakw-10">
           <mxGeometry relative="1" as="geometry" />
@@ -115,6 +156,16 @@
         <mxCell id="wsb-zRbCA9PMMpIkRakw-45" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-44">
           <mxGeometry x="-0.2289" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wsb-zRbCA9PMMpIkRakw-1" source="wsb-zRbCA9PMMpIkRakw-32" target="wsb-zRbCA9PMMpIkRakw-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="657.5000000000005" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsb-zRbCA9PMMpIkRakw-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wsb-zRbCA9PMMpIkRakw-47">
+          <mxGeometry x="-0.0974" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

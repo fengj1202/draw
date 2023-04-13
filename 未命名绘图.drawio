@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:23:09.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tUTTRXHEKMiUEJjh18Ph" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T06:27:26.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4g7yF3y9CxVEhIF6yf4G" version="21.1.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2501" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,16 +51,28 @@
           <mxGeometry x="-50" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-32">
-          <mxGeometry x="45" y="235" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="235" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-32">
           <mxGeometry x="45" y="670" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-32">
+          <mxGeometry x="45" y="325" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-73" value="退货更正中状态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="2LRA-TsAU7x1MnGm1xn2-72" parent="2LRA-TsAU7x1MnGm1xn2-32" source="2LRA-TsAU7x1MnGm1xn2-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="305" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="270" />
+              <mxPoint x="80" y="335" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-33" value="退货价格更正单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-33">
-          <mxGeometry x="45" y="280" width="10" height="140" as="geometry" />
+          <mxGeometry x="45" y="350" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-33">
           <mxGeometry x="45" y="515" width="10" height="80" as="geometry" />
@@ -88,14 +100,14 @@
             <mxPoint x="-305" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LRA-TsAU7x1MnGm1xn2-48" value="生成到货价格更正单" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="2LRA-TsAU7x1MnGm1xn2-47" parent="1" source="2LRA-TsAU7x1MnGm1xn2-45">
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-48" value="生成到货价格更正单" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="2LRA-TsAU7x1MnGm1xn2-47" parent="1">
           <mxGeometry x="-0.3478" relative="1" as="geometry">
-            <mxPoint x="-150" y="330" as="sourcePoint" />
+            <mxPoint x="-240" y="293" as="sourcePoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LRA-TsAU7x1MnGm1xn2-50" value="MQ异步生成退货价格更正单" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="2LRA-TsAU7x1MnGm1xn2-49" parent="1" source="2LRA-TsAU7x1MnGm1xn2-47">
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-50" value="MQ异步生成退货价格更正单" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="2LRA-TsAU7x1MnGm1xn2-49" parent="1" source="2LRA-TsAU7x1MnGm1xn2-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="310" as="sourcePoint" />
           </mxGeometry>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:52:42.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="K1ieYG0nUXJeDO3evTjZ" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T06:55:53.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zeWNi4U5j-iT4lmZyUJ-" version="21.1.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2222" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
           <mxGeometry x="210" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-33">
-          <mxGeometry x="45" y="522" width="10" height="90" as="geometry" />
+          <mxGeometry x="45" y="522" width="10" height="38" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-33">
           <mxGeometry x="45" y="707" width="10" height="80" as="geometry" />
@@ -123,6 +123,18 @@
             <Array as="points">
               <mxPoint x="80" y="747" />
               <mxPoint x="80" y="822" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2LRA-TsAU7x1MnGm1xn2-33">
+          <mxGeometry x="45" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-91" value="判断是否需要生成退货价格更正单:&lt;br&gt;不生成:直接调到货更正单修改状态接口&lt;br&gt;生成:状态为更正中" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="2LRA-TsAU7x1MnGm1xn2-90" parent="2LRA-TsAU7x1MnGm1xn2-33" source="2LRA-TsAU7x1MnGm1xn2-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="550" />
+              <mxPoint x="80" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -154,7 +166,7 @@
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-515" y="602" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2LRA-TsAU7x1MnGm1xn2-54" value="MQ异步更正退货流水" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2LRA-TsAU7x1MnGm1xn2-49" target="2LRA-TsAU7x1MnGm1xn2-51">
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-54" value="MQ异步更正退货流水" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2LRA-TsAU7x1MnGm1xn2-33" target="2LRA-TsAU7x1MnGm1xn2-51">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="259.5" y="642" as="sourcePoint" />
             <mxPoint x="-230" y="672" as="targetPoint" />

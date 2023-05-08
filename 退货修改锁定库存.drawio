@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T10:41:44.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CkEZpRTcq-QAN39Rz-Dq" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T10:43:29.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KCV7sLaI2xPcfSWLE2mK" version="21.2.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2283" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,7 +141,7 @@
         <mxCell id="1s8nKN8N_IV5K6xj3guR-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="2LRA-TsAU7x1MnGm1xn2-32" vertex="1">
           <mxGeometry x="45" y="545" width="10" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1s8nKN8N_IV5K6xj3guR-14" value="修改数量" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="2LRA-TsAU7x1MnGm1xn2-32" target="1s8nKN8N_IV5K6xj3guR-13" edge="1">
+        <mxCell id="1s8nKN8N_IV5K6xj3guR-14" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 12px;&quot;&gt;修改数量&lt;/font&gt;&lt;/b&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="2LRA-TsAU7x1MnGm1xn2-32" target="1s8nKN8N_IV5K6xj3guR-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="520" as="sourcePoint" />
             <Array as="points">
@@ -161,7 +161,7 @@
             <mxPoint x="-50" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1s8nKN8N_IV5K6xj3guR-16" value="接收TMS数量修改" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="1s8nKN8N_IV5K6xj3guR-13" target="2LRA-TsAU7x1MnGm1xn2-24" edge="1">
+        <mxCell id="1s8nKN8N_IV5K6xj3guR-16" value="&lt;font color=&quot;#ff0000&quot;&gt;接收TMS数量修改&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="1s8nKN8N_IV5K6xj3guR-13" target="2LRA-TsAU7x1MnGm1xn2-24" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-10" y="610" as="sourcePoint" />
             <mxPoint x="-60" y="700" as="targetPoint" />
@@ -170,7 +170,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiLf_85VfcUZ56Lqa5jR-1" value="调用集成接口,修改锁定库存" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="1s8nKN8N_IV5K6xj3guR-15" target="2LRA-TsAU7x1MnGm1xn2-23">
+        <mxCell id="kiLf_85VfcUZ56Lqa5jR-1" value="&lt;font color=&quot;#ff0000&quot;&gt;调用集成接口,修改锁定库存&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="1s8nKN8N_IV5K6xj3guR-15" target="2LRA-TsAU7x1MnGm1xn2-23">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-370" y="760" as="sourcePoint" />
             <mxPoint x="-310" y="760" as="targetPoint" />
@@ -179,7 +179,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiLf_85VfcUZ56Lqa5jR-3" value="同步调用,释放原库存,锁定新库存" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="1s8nKN8N_IV5K6xj3guR-17" target="kiLf_85VfcUZ56Lqa5jR-2">
+        <mxCell id="kiLf_85VfcUZ56Lqa5jR-3" value="&lt;font color=&quot;#ff0000&quot;&gt;同步调用,释放原库存,锁定新库存&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="1s8nKN8N_IV5K6xj3guR-17" target="kiLf_85VfcUZ56Lqa5jR-2">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-650" y="770" as="sourcePoint" />
             <mxPoint x="-590" y="770" as="targetPoint" />

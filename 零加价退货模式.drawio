@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T07:05:03.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VzR6jUsJhBCJmbMH80WQ" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:07:21.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="w9eybCMtd4Cvn8SoPXPM" version="21.3.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3871" dy="1375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3617" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-23" value="库存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="30" width="100" height="1000" as="geometry" />
+          <mxGeometry x="-643" y="30" width="100" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="2LRA-TsAU7x1MnGm1xn2-23" vertex="1">
           <mxGeometry x="45" y="75" width="10" height="80" as="geometry" />
@@ -68,13 +68,13 @@
           <mxGeometry x="45" y="620" width="10" height="42" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-24" value="到货单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="30" width="100" height="980" as="geometry" />
+          <mxGeometry x="-439" y="30" width="100" height="980" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="2LRA-TsAU7x1MnGm1xn2-24" vertex="1">
           <mxGeometry x="45" y="230" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-32" value="到货更正单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="30" width="100" height="960" as="geometry" />
+          <mxGeometry x="-199" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="2LRA-TsAU7x1MnGm1xn2-32" vertex="1">
           <mxGeometry x="45" y="235" width="10" height="55" as="geometry" />
@@ -111,7 +111,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-33" value="退货价格更正单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="30" width="100" height="960" as="geometry" />
+          <mxGeometry x="61" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="2LRA-TsAU7x1MnGm1xn2-33" vertex="1">
           <mxGeometry x="45" y="522" width="10" height="38" as="geometry" />
@@ -157,67 +157,73 @@
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-46" value="MQ推单" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="2LRA-TsAU7x1MnGm1xn2-41" target="2LRA-TsAU7x1MnGm1xn2-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-305" y="240" as="sourcePoint" />
+            <mxPoint x="-388" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-48" value="生成到货价格更正单" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.9;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2LRA-TsAU7x1MnGm1xn2-45" edge="1">
           <mxGeometry x="-0.3478" relative="1" as="geometry">
-            <mxPoint x="-240" y="293" as="sourcePoint" />
+            <mxPoint x="-389" y="293" as="sourcePoint" />
             <Array as="points" />
-            <mxPoint y="300" as="targetPoint" />
+            <mxPoint x="-149" y="300" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-50" value="MQ异步生成退货价格更正单" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint y="570" as="sourcePoint" />
-            <mxPoint x="259.49999999999955" y="569.1764705882354" as="targetPoint" />
+            <mxPoint x="-149" y="570" as="sourcePoint" />
+            <mxPoint x="110.49999999999955" y="569.1764705882354" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-54" value="MQ异步更正退货流水" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="2LRA-TsAU7x1MnGm1xn2-51" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="260" y="671" as="sourcePoint" />
-            <mxPoint x="-230" y="672" as="targetPoint" />
+            <mxPoint x="110" y="670" as="sourcePoint" />
+            <mxPoint x="-313" y="672" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="670" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-515" y="710" width="10" height="62" as="geometry" />
+          <mxGeometry x="-598" y="710" width="10" height="62" as="geometry" />
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-58" value="记账" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="2LRA-TsAU7x1MnGm1xn2-57" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-505" y="672" as="sourcePoint" />
+            <mxPoint x="-588" y="672" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-505" y="680" />
-              <mxPoint x="-475" y="680" />
-              <mxPoint x="-475" y="741" />
+              <mxPoint x="-588" y="680" />
+              <mxPoint x="-558" y="680" />
+              <mxPoint x="-558" y="741" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-60" value="MQ通知记账结果" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="2LRA-TsAU7x1MnGm1xn2-57" target="2LRA-TsAU7x1MnGm1xn2-59" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-305" y="752" as="sourcePoint" />
+            <mxPoint x="-388" y="752" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-65" value="同步调到货价格更正单修改状态接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="2LRA-TsAU7x1MnGm1xn2-61" target="2LRA-TsAU7x1MnGm1xn2-63" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="90" y="912" as="sourcePoint" />
-            <mxPoint x="170" y="912" as="targetPoint" />
+            <mxPoint x="-59" y="912" as="sourcePoint" />
+            <mxPoint x="21" y="912" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LRA-TsAU7x1MnGm1xn2-68" value="MQ通知到货更正单完成" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="2LRA-TsAU7x1MnGm1xn2-66" edge="1">
+        <mxCell id="2LRA-TsAU7x1MnGm1xn2-68" value="MQ通知到货更正单完成" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="2LRA-TsAU7x1MnGm1xn2-66" edge="1" source="2LRA-TsAU7x1MnGm1xn2-63">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-0.5" y="962" as="sourcePoint" />
-            <mxPoint x="-340" y="942" as="targetPoint" />
+            <mxPoint x="-83.5" y="962" as="sourcePoint" />
+            <mxPoint x="-423" y="942" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="960" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2LRA-TsAU7x1MnGm1xn2-79" value="MQ异步更正到货流水(按到货单维度推,有多张到货价格更正单)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="2LRA-TsAU7x1MnGm1xn2-77" target="2LRA-TsAU7x1MnGm1xn2-75" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-140" y="400" as="sourcePoint" />
-            <mxPoint x="-80" y="400" as="targetPoint" />
+            <mxPoint x="-223" y="400" as="sourcePoint" />
+            <mxPoint x="-163" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0RT_YmVqureyaI2YL_fF-1" value="退货申请单/&lt;br&gt;退货入库单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="480" y="30" width="100" height="960" as="geometry" />
+          <mxGeometry x="296" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="0RT_YmVqureyaI2YL_fF-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="0RT_YmVqureyaI2YL_fF-1" vertex="1">
           <mxGeometry x="45" y="827" width="10" height="40" as="geometry" />
@@ -275,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-1" value="批量退货单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="30" width="100" height="960" as="geometry" />
+          <mxGeometry x="496" y="30" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Ma-mwLTc2mmHxIVx-Mo3-1">
           <mxGeometry x="45" y="60" width="10" height="60" as="geometry" />
@@ -306,10 +312,10 @@
         </mxCell>
         <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-16" value="生成已提交的申请单" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Ma-mwLTc2mmHxIVx-Mo3-1" target="0RT_YmVqureyaI2YL_fF-1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="620" y="390" as="sourcePoint" />
-            <mxPoint x="680" y="390" as="targetPoint" />
+            <mxPoint x="436" y="390" as="sourcePoint" />
+            <mxPoint x="496" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="310" />
+              <mxPoint x="426" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>

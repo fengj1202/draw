@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T06:42:53.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mc3svTO8HaVNNifhDURP" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:05:03.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VzR6jUsJhBCJmbMH80WQ" version="21.3.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2796" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3871" dy="1375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,6 +221,97 @@
         </mxCell>
         <mxCell id="0RT_YmVqureyaI2YL_fF-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="0RT_YmVqureyaI2YL_fF-1" vertex="1">
           <mxGeometry x="45" y="827" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry x="45" y="60" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-8" value="保存:&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;商品属于0加价判断调整&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Ma-mwLTc2mmHxIVx-Mo3-7" parent="0RT_YmVqureyaI2YL_fF-1" source="Ma-mwLTc2mmHxIVx-Mo3-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="90" />
+              <mxPoint x="80" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry x="45" y="260" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-12" value="提交" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Ma-mwLTc2mmHxIVx-Mo3-11" parent="0RT_YmVqureyaI2YL_fF-1" source="Ma-mwLTc2mmHxIVx-Mo3-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="180" />
+              <mxPoint x="80" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry x="45" y="360" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-19" value="审核:&lt;br&gt;无实物退货,取关联最近的到货单价格" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Ma-mwLTc2mmHxIVx-Mo3-18" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="310" />
+              <mxPoint x="80" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry x="45" y="470" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-21" value="入库确认:&lt;br&gt;取关联最近的到货单价格" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Ma-mwLTc2mmHxIVx-Mo3-20" parent="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="50" y="410" />
+              <mxPoint x="80" y="410" />
+              <mxPoint x="80" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-1" value="批量退货单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="30" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Ma-mwLTc2mmHxIVx-Mo3-1">
+          <mxGeometry x="45" y="60" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Ma-mwLTc2mmHxIVx-Mo3-1">
+          <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-5" value="保存,&lt;font color=&quot;#ff0000&quot;&gt;导入&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;1.商品增加属于0加价判断&lt;br&gt;2.记录到货单到货区间限制&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Ma-mwLTc2mmHxIVx-Mo3-4" parent="Ma-mwLTc2mmHxIVx-Mo3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="110" />
+              <mxPoint x="80" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Ma-mwLTc2mmHxIVx-Mo3-1">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-15" value="提交:&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;1.系统分配根据到货单到货时间区间控制&lt;br&gt;2.系统分配默认为14天&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Ma-mwLTc2mmHxIVx-Mo3-14" parent="Ma-mwLTc2mmHxIVx-Mo3-1" source="Ma-mwLTc2mmHxIVx-Mo3-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="180" />
+              <mxPoint x="80" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ma-mwLTc2mmHxIVx-Mo3-16" value="生成已提交的申请单" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Ma-mwLTc2mmHxIVx-Mo3-1" target="0RT_YmVqureyaI2YL_fF-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="620" y="390" as="sourcePoint" />
+            <mxPoint x="680" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

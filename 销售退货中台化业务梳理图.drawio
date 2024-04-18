@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T02:13:38.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="FMa1AhEoilSYfsPj_riK" version="24.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-18T02:20:52.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="l3b1nQmN8f_bbqq3ZkgI" version="24.2.5" type="github" pages="2">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
-    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,8 +208,8 @@
         <mxCell id="fWUfFv7skvt26-jUhU9V-33" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="90" y="550" width="120" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="fWUfFv7skvt26-jUhU9V-34" value="&lt;font color=&quot;#ff0000&quot;&gt;区域/仓配&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fWUfFv7skvt26-jUhU9V-33">
-          <mxGeometry y="130" width="70" height="30" as="geometry" />
+        <mxCell id="fWUfFv7skvt26-jUhU9V-34" value="&lt;font color=&quot;#ff0000&quot;&gt;仓配&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fWUfFv7skvt26-jUhU9V-33">
+          <mxGeometry y="130" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fWUfFv7skvt26-jUhU9V-35" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="260" y="550" width="110" height="130" as="geometry" />
@@ -220,8 +220,8 @@
         <mxCell id="fWUfFv7skvt26-jUhU9V-37" value="&lt;font color=&quot;#ff0000&quot;&gt;门店&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fWUfFv7skvt26-jUhU9V-36">
           <mxGeometry x="20" y="100" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fWUfFv7skvt26-jUhU9V-38" value="&lt;font color=&quot;#ff0000&quot;&gt;区域/仓配&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fWUfFv7skvt26-jUhU9V-36">
-          <mxGeometry y="130" width="70" height="30" as="geometry" />
+        <mxCell id="fWUfFv7skvt26-jUhU9V-38" value="&lt;font color=&quot;#ff0000&quot;&gt;仓配&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fWUfFv7skvt26-jUhU9V-36">
+          <mxGeometry y="130" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fWUfFv7skvt26-jUhU9V-39" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="480" y="550" width="120" height="160" as="geometry" />

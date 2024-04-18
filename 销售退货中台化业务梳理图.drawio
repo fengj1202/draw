@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T06:18:15.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xj2_bLwzgoxNe9-SR5Qd" version="24.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-18T01:16:02.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="U2C61LJslzMBRlv4LLeP" version="24.2.5" type="github" pages="2">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
-    <mxGraphModel dx="1222" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,11 +112,26 @@
         <mxCell id="bnY7e7fmy8GhsmO2ouJq-34" value="入库确认" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="290" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="s74Dhn9QTPgKhz1bHFSL-1" value="操作人员" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="480" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="s74Dhn9QTPgKhz1bHFSL-2" value="门店" style="swimlane;html=1;startSize=20;" vertex="1" parent="s74Dhn9QTPgKhz1bHFSL-1">
+          <mxGeometry y="20" width="160" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s74Dhn9QTPgKhz1bHFSL-3" value="区域" style="swimlane;html=1;startSize=20;" vertex="1" parent="s74Dhn9QTPgKhz1bHFSL-1">
+          <mxGeometry x="160" y="20" width="160" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s74Dhn9QTPgKhz1bHFSL-4" value="仓配" style="swimlane;html=1;startSize=20;" vertex="1" parent="s74Dhn9QTPgKhz1bHFSL-1">
+          <mxGeometry x="320" y="20" width="160" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s74Dhn9QTPgKhz1bHFSL-6" value="退货草稿单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="80" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="-oOO8aZKbk-qjLzPPIqD" name="业务动作流程图">
-    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

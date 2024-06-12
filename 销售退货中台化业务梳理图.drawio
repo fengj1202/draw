@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T02:39:22.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="f0-PFdmfHvGSIZa866OE" version="24.5.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-12T02:40:15.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="S9mgovvR_IHLsZhhhVye" version="24.5.3" type="github" pages="7">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1103" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,14 +279,14 @@
         <mxCell id="qlXyHKSydl-XH-u8XsSC-18" value="单据提交动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-20" value="异步MQ锁定库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="420" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-21" value="好吃卡锁定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-20" value="异步MQ锁定库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-22" value="同步锁定库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-21" value="好吃卡锁定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-22" value="同步锁定库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-25" value="库存锁定响应" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="120" height="80" as="geometry" />
@@ -297,7 +297,7 @@
         <mxCell id="qlXyHKSydl-XH-u8XsSC-27" value="自动审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-28" value="通知上游锁定结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-28" value="通知上游锁定结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="120" height="40" as="geometry" />
         </mxCell>
       </root>

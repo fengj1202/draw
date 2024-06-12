@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:46:24.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DamSgtVO8Y-wUbfHQYWg" version="24.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:53:30.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ep4bpx6SYxA4OFDoom_H" version="24.5.3" type="github" pages="8">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1103" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,7 +396,7 @@
         <mxCell id="yHoJsHoUju9UReFSy8dS-54" value="幂等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
           <mxGeometry x="39" y="380" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yHoJsHoUju9UReFSy8dS-55" value="表信息赋值,&lt;div&gt;DB新增&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+        <mxCell id="yHoJsHoUju9UReFSy8dS-55" value="表信息赋值,&lt;div&gt;DB新增&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
           <mxGeometry x="39" y="440" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yHoJsHoUju9UReFSy8dS-56" value="绑定到货单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
@@ -420,11 +420,26 @@
         <mxCell id="mMBIvjUdo_17O6c7zLJM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
           <mxGeometry x="40" y="180" width="760" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mMBIvjUdo_17O6c7zLJM-2" value="18个新增接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
-          <mxGeometry x="59" y="200" width="80" height="40" as="geometry" />
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-2" value="18个新增接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="119" y="200" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mMBIvjUdo_17O6c7zLJM-3" value="业务判断过多" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
-          <mxGeometry x="640" y="200" width="80" height="40" as="geometry" />
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-3" value="业务判断过多" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="333.5" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-4" value="通知上游方法分散" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="654" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-5" value="自动逻辑判断分散不统一" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="550" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-6" value="代码重复率高" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="230" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-7" value="代码嵌套较深,逻辑不清晰" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="440" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mMBIvjUdo_17O6c7zLJM-8" value="存在的问题描述" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yHoJsHoUju9UReFSy8dS-1">
+          <mxGeometry x="40" y="210" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

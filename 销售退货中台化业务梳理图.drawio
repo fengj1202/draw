@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T02:40:15.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="S9mgovvR_IHLsZhhhVye" version="24.5.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-12T03:58:44.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="5olsVPMDjn57_sXx4iYu" version="24.5.3" type="github" pages="7">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1103" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,16 +244,16 @@
           <mxGeometry x="40" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-2" value="提交/锁定库存" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="160" y="200" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-3" value="审核/推单到仓" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="400" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="370" y="200" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-4" value="确认/流水记账" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="590" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-5" value="完结/自动单据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="730" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="600" y="200" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-9" value="ERP页面录入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
@@ -277,28 +277,124 @@
           <mxGeometry x="50" y="50" width="20" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-18" value="单据提交动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="300" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-20" value="异步MQ锁定库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-20" value="异步MQ锁定库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-21" value="好吃卡锁定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="480" width="120" height="40" as="geometry" />
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-21" value="好吃卡锁定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-22" value="同步锁定库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="420" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-25" value="库存锁定响应" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="280" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="200" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-26" value="单据提交完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="270" y="300" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qlXyHKSydl-XH-u8XsSC-27" value="自动审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="420" width="120" height="40" as="geometry" />
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-27" value="自动审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qlXyHKSydl-XH-u8XsSC-28" value="通知上游锁定结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="270" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-33" value="无实物,&lt;div&gt;退货价格更新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-34" value="拆单,&lt;div&gt;退货入库单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-35" value="质检信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="540" width="98.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-40" value="单据审核完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="300" width="98.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-41" value="推单WMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-42" value="推单TMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-43" value="无实物,&lt;div&gt;自动确认&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="900" width="98.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-44" value="好吃卡确认" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="720" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-45" value="生成采购退货单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-46" value="退货价格更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-47" value="帮扶返点信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-50" value="单据确认动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-51" value="异常,通知wms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-53" value="推送库存,流水记账" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-54" value="好吃卡信息校验审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-55" value="EOMS心享自动单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="720" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-56" value="帮扶返点信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371" y="480" width="99" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-57" value="绑定到货单变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-60" value="通知上游完结结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-61" value="机构授信增加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-62" value="外机构信息回填" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-63" value="异步MQ调库存生成报损单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-64" value="退货入库单据状态完结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-65" value="同步更新采购退货单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-66" value="同步调库存生成报损单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-67" value="绑定到货单变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-68" value="好吃卡确认" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-69" value="无仓机构生成自动退单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-77" value="采购退货单自动单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-79" value="回写前置单据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-80" value="客户订单额度更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qlXyHKSydl-XH-u8XsSC-81" value="审核不通过,&lt;div&gt;释放锁定库存&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T07:36:09.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="IXc5G3PqL14QrF9ZnuGj" version="24.5.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-01T07:37:41.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lkqVZ9Uj4dqU1LdXB24A" version="24.5.4" type="github" pages="9">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1195" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -678,6 +678,24 @@
         </mxCell>
         <mxCell id="khq9zMPg4JiKYgBw_3Dq-21" value="................" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
           <mxGeometry x="700" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.196;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="340" as="sourcePoint" />
+            <mxPoint x="360" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-23" value="新增节点处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="80" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-24" value="提交节点处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="220" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-25" value="审核节点处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="360" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-26" value="确认节点处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="510" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

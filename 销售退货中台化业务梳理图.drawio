@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T07:32:12.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3DJPXZL1UvkCW2vaSBcZ" version="24.5.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-01T07:36:09.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="IXc5G3PqL14QrF9ZnuGj" version="24.5.4" type="github" pages="9">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1195" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -586,6 +586,9 @@
       <root>
         <mxCell id="3OatgGw5sPZPqcEyj5Tr-0" />
         <mxCell id="3OatgGw5sPZPqcEyj5Tr-1" parent="3OatgGw5sPZPqcEyj5Tr-0" />
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="20" y="380" width="780" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="khq9zMPg4JiKYgBw_3Dq-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
           <mxGeometry x="20" y="200" width="660" height="140" as="geometry" />
         </mxCell>
@@ -632,7 +635,7 @@
           <mxGeometry x="50" y="235" width="20" height="70" as="geometry" />
         </mxCell>
         <mxCell id="khq9zMPg4JiKYgBw_3Dq-9" value="liteflow流程编排" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
-          <mxGeometry x="690" y="200" width="120" height="140" as="geometry" />
+          <mxGeometry x="690" y="200" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="khq9zMPg4JiKYgBw_3Dq-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.196;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.23;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="3OatgGw5sPZPqcEyj5Tr-1" source="3OatgGw5sPZPqcEyj5Tr-4" target="khq9zMPg4JiKYgBw_3Dq-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -657,6 +660,24 @@
             <mxPoint x="600.5" y="162" as="sourcePoint" />
             <mxPoint x="599.5" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-14" value="门店退货类型处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="130" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-15" value="调拨退货类型处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="273.5" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-16" value="质量投诉系统类型处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="420" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-17" value="日结类型处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="560" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-20" value="不同数据来源处理器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="40" y="410" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="khq9zMPg4JiKYgBw_3Dq-21" value="................" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3OatgGw5sPZPqcEyj5Tr-1">
+          <mxGeometry x="700" y="430" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

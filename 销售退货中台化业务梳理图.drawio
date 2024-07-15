@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T07:39:41.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="AXmKY8JtXNh4Vkl8dNJ8" version="24.5.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-15T08:19:27.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="GAfN1POjSY7NWBwnPsNW" version="24.6.5" type="github" pages="10">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1195" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,6 +461,118 @@
         </mxCell>
         <mxCell id="mMBIvjUdo_17O6c7zLJM-8" value="存在的问题描述" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="yHoJsHoUju9UReFSy8dS-1" vertex="1">
           <mxGeometry x="39" y="1110" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rHSDT1ui0ViA5XCGzUwo" name="时序图1">
+    <mxGraphModel dx="2620" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-5" value="批量退货&lt;div&gt;(退货草稿单)&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="30" width="100" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-5">
+          <mxGeometry x="45" y="190" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-5">
+          <mxGeometry x="45" y="350" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-84" value="门店退货页面新增/导入" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="nExD_tFKTg3PK4DnfEb5-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-117" y="90" as="sourcePoint" />
+            <mxPoint x="253.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-88" value="生成已提交退货申请单" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="nExD_tFKTg3PK4DnfEb5-5" target="nExD_tFKTg3PK4DnfEb5-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="53" y="400" as="sourcePoint" />
+            <mxPoint x="133" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-15" value="退货申请单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-439" y="30" width="100" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-15">
+          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-82" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-15">
+          <mxGeometry x="45" y="290" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-89" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-15">
+          <mxGeometry x="45" y="390" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-90" value="提交" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="nExD_tFKTg3PK4DnfEb5-89" parent="nExD_tFKTg3PK4DnfEb5-15" source="nExD_tFKTg3PK4DnfEb5-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="330" />
+              <mxPoint x="85" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-93" value="异步MQ消息锁定库存" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="nExD_tFKTg3PK4DnfEb5-15" target="nExD_tFKTg3PK4DnfEb5-44">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="49" y="440" as="sourcePoint" />
+            <mxPoint x="109" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-17" value="退货入库单" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-199" y="30" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-25" value="wms" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="61" y="30" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-44" value="库存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="30" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-91" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-44">
+          <mxGeometry x="45" y="430" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-44">
+          <mxGeometry x="45" y="500" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-95" value="锁定客户库存" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="nExD_tFKTg3PK4DnfEb5-94" parent="nExD_tFKTg3PK4DnfEb5-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-63" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="30" width="20" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-63">
+          <mxGeometry x="5" y="60" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-63">
+          <mxGeometry x="5" y="175" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-63">
+          <mxGeometry x="5" y="280" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nExD_tFKTg3PK4DnfEb5-63">
+          <mxGeometry x="5" y="350" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-85" value="批量退货页面新增" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="nExD_tFKTg3PK4DnfEb5-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-760" y="240" as="sourcePoint" />
+            <mxPoint x="-680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-86" value="门店退货页面提交" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="nExD_tFKTg3PK4DnfEb5-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-760" y="330" as="sourcePoint" />
+            <mxPoint x="-680" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-87" value="批量退货页面提交" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="nExD_tFKTg3PK4DnfEb5-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-760" y="400" as="sourcePoint" />
+            <mxPoint x="-680" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

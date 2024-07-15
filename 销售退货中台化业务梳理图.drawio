@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T08:23:13.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4ctSMD4EG7V1jy_nbhfJ" version="24.6.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-07-15T08:24:07.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uNZEmok3AArsMBnlVzkt" version="24.6.5" type="github" pages="10">
   <diagram name="单据图" id="FxYt-3161vhRmsvRQ9Sq">
     <mxGraphModel dx="1195" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -512,7 +512,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nExD_tFKTg3PK4DnfEb5-93" value="异步MQ消息锁定库存" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="nExD_tFKTg3PK4DnfEb5-15" target="nExD_tFKTg3PK4DnfEb5-44" edge="1">
+        <mxCell id="nExD_tFKTg3PK4DnfEb5-93" value="(&lt;font color=&quot;#ff0000&quot;&gt;客户管理库存&lt;/font&gt;)异步MQ消息锁定库存" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="nExD_tFKTg3PK4DnfEb5-15" target="nExD_tFKTg3PK4DnfEb5-44" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="49" y="440" as="sourcePoint" />
             <mxPoint x="109" y="440" as="targetPoint" />

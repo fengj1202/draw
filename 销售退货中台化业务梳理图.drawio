@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="新中台退货时序图" id="6ZybC5aLsk9y8Pn0PyDp">
-    <mxGraphModel dx="2074" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3434" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PcJhqCOeO122mSnEiP-Y-0" />
         <mxCell id="PcJhqCOeO122mSnEiP-Y-1" parent="PcJhqCOeO122mSnEiP-Y-0" />
@@ -1454,7 +1454,7 @@
           <mxGeometry x="45" y="1841" width="10" height="199" as="geometry" />
         </mxCell>
         <mxCell id="SgY6rfTaIyUM4yhe0qYo-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tlg75l8PQ9xJClncMlim-37">
-          <mxGeometry x="45" y="2161" width="10" height="399" as="geometry" />
+          <mxGeometry x="45" y="2161" width="10" height="359" as="geometry" />
         </mxCell>
         <mxCell id="Tlg75l8PQ9xJClncMlim-38" value="事件发布与监听" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="PcJhqCOeO122mSnEiP-Y-1" vertex="1">
           <mxGeometry x="-90" y="39" width="100" height="2851" as="geometry" />
@@ -1861,7 +1861,7 @@
             <mxPoint x="-360" y="2240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-12" value="同步更新上游单据(如:调拨单)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-12" value="同步更新上游单据(如:调拨单,退货申请单)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-200" y="2320" as="sourcePoint" />
             <mxPoint x="-685.0026315789476" y="2320.0000000000005" as="targetPoint" />
@@ -1874,7 +1874,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-16" value="同步生成下游单(如:新增无仓机构退货,溯源信息,客户订单额度,外机构统计信息)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-42">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-16" value="同步调销售单(如:新增无仓机构退货,溯源信息,客户订单额度,外机构统计信息)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-42">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-200" y="2360" as="sourcePoint" />
             <mxPoint x="-140" y="2360" as="targetPoint" />
@@ -1899,7 +1899,7 @@
             <mxPoint x="-680" y="2440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-27" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-27" value="同步调下游系统(如:好吃卡信息确认,授信对接,库存生成报损单,生成采购退货单)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-200" y="2460" as="sourcePoint" />
             <mxPoint x="599.5000000000005" y="2460" as="targetPoint" />

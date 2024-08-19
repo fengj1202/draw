@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="新中台退货时序图" id="6ZybC5aLsk9y8Pn0PyDp">
-    <mxGraphModel dx="2193" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PcJhqCOeO122mSnEiP-Y-0" />
         <mxCell id="PcJhqCOeO122mSnEiP-Y-1" parent="PcJhqCOeO122mSnEiP-Y-0" />
@@ -1454,7 +1454,7 @@
           <mxGeometry x="45" y="1841" width="10" height="199" as="geometry" />
         </mxCell>
         <mxCell id="SgY6rfTaIyUM4yhe0qYo-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-37" vertex="1">
-          <mxGeometry x="45" y="2161" width="10" height="359" as="geometry" />
+          <mxGeometry x="45" y="2161" width="10" height="479" as="geometry" />
         </mxCell>
         <mxCell id="Tlg75l8PQ9xJClncMlim-38" value="事件发布与监听" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="PcJhqCOeO122mSnEiP-Y-1" vertex="1">
           <mxGeometry x="30" y="39" width="100" height="2851" as="geometry" />
@@ -1524,15 +1524,15 @@
           <mxGeometry x="45" y="2121" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SgY6rfTaIyUM4yhe0qYo-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-39" vertex="1">
-          <mxGeometry x="45" y="2441" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="2441" width="10" height="199" as="geometry" />
         </mxCell>
-        <mxCell id="kHd08PPIO5UpR0jOzNib-0" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tlg75l8PQ9xJClncMlim-39">
+        <mxCell id="kHd08PPIO5UpR0jOzNib-0" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-39" vertex="1">
           <mxGeometry x="45" y="601" width="10" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="kHd08PPIO5UpR0jOzNib-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tlg75l8PQ9xJClncMlim-39">
+        <mxCell id="kHd08PPIO5UpR0jOzNib-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-39" vertex="1">
           <mxGeometry x="45" y="1241" width="10" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="kHd08PPIO5UpR0jOzNib-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tlg75l8PQ9xJClncMlim-39">
+        <mxCell id="kHd08PPIO5UpR0jOzNib-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-39" vertex="1">
           <mxGeometry x="45" y="1760" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Tlg75l8PQ9xJClncMlim-40" value="WMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="PcJhqCOeO122mSnEiP-Y-1" vertex="1">
@@ -1834,14 +1834,14 @@
             <mxPoint x="-565.0026315789476" y="2320.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-14" value="发送各类MQ消息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-14" value="发送不同MQ消息(如:新增无仓机构退货,通知wms等)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">
           <mxGeometry x="0.0016" width="60" relative="1" as="geometry">
             <mxPoint x="-79.75" y="2500" as="sourcePoint" />
             <mxPoint x="239.75" y="2500" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-16" value="同步调销售单(如:新增无仓机构退货,溯源信息,客户订单额度,外机构统计信息)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-42" edge="1">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-16" value="同步调销售单(如:溯源信息,客户订单额度,外机构统计信息)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-42" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-80" y="2360" as="sourcePoint" />
             <mxPoint x="-20" y="2360" as="targetPoint" />
@@ -1917,22 +1917,28 @@
             <mxPoint x="-20" y="2020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHd08PPIO5UpR0jOzNib-1" value="发送自动提交MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-39">
+        <mxCell id="kHd08PPIO5UpR0jOzNib-1" value="发送自动提交MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-39" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="80" y="660" as="sourcePoint" />
             <mxPoint x="140" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHd08PPIO5UpR0jOzNib-3" value="发送自动审核MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-39">
+        <mxCell id="kHd08PPIO5UpR0jOzNib-3" value="发送自动审核MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-39" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="80" y="1320" as="sourcePoint" />
             <mxPoint x="140" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHd08PPIO5UpR0jOzNib-5" value="发送自动入库确认MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-39">
+        <mxCell id="kHd08PPIO5UpR0jOzNib-5" value="发送自动入库确认MQ" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-39" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="80" y="1840" as="sourcePoint" />
             <mxPoint x="140" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiquL6yUwCwqBN-qEYeb-0" value="MQ消费异常,回写原退货入库单状态" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="Tlg75l8PQ9xJClncMlim-37">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="239.50000000000045" y="2640" as="sourcePoint" />
+            <mxPoint y="2640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

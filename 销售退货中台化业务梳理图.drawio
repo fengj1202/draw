@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="新中台退货时序图" id="6ZybC5aLsk9y8Pn0PyDp">
-    <mxGraphModel dx="2222" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PcJhqCOeO122mSnEiP-Y-0" />
         <mxCell id="PcJhqCOeO122mSnEiP-Y-1" parent="PcJhqCOeO122mSnEiP-Y-0" />
@@ -1672,7 +1672,7 @@
             <mxPoint x="80" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ffp_Sq9NwYNrTIVlMa3e-0" value="退货申请单提交结果MQ&lt;div&gt;topic:${mq.profiles}Erp2_sal_return_apply&lt;/div&gt;&lt;div&gt;tag:apply_commit&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GM_3tZ4JmnzQAWIB9VqX-25">
+        <mxCell id="Ffp_Sq9NwYNrTIVlMa3e-0" value="退货申请单提交结果MQ&lt;div&gt;topic:Erp2_sal_return_apply&lt;/div&gt;&lt;div&gt;tag:apply_commit&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GM_3tZ4JmnzQAWIB9VqX-25">
           <mxGeometry x="0.3462" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

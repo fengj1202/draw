@@ -1639,10 +1639,11 @@
             <mxPoint x="-240.5" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tlg75l8PQ9xJClncMlim-80" value="退货申请单新增结果MQ&lt;div&gt;topic:${mq.profiles}Erp2_salreturn_apply_create&lt;/div&gt;&lt;div&gt;tag:apply_create&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1" target="Tlg75l8PQ9xJClncMlim-39">
-          <mxGeometry width="60" relative="1" as="geometry">
+        <mxCell id="Tlg75l8PQ9xJClncMlim-80" value="退货申请单新增结果MQ&lt;div&gt;topic:Erp2_salreturn_apply_create&lt;/div&gt;&lt;div&gt;tag:apply_create&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1" target="Tlg75l8PQ9xJClncMlim-39">
+          <mxGeometry x="0.0016" width="60" relative="1" as="geometry">
             <mxPoint x="-239.75" y="500" as="sourcePoint" />
             <mxPoint x="79.75" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tlg75l8PQ9xJClncMlim-86" value="上游系统提交" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">

@@ -1769,7 +1769,7 @@
             <mxPoint x="-565.0026315789476" y="2320.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-14" value="发送不同MQ消息(如:新增无仓机构退货,通知wms等)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-14" value="发送不同MQ消息(如:通知wms等)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">
           <mxGeometry x="0.0016" width="60" relative="1" as="geometry">
             <mxPoint x="-79.75" y="2500" as="sourcePoint" />
             <mxPoint x="90" y="2500" as="targetPoint" />

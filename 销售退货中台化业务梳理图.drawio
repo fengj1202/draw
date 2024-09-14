@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="新中台退货时序图" id="6ZybC5aLsk9y8Pn0PyDp">
-    <mxGraphModel dx="2023" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PcJhqCOeO122mSnEiP-Y-0" />
         <mxCell id="PcJhqCOeO122mSnEiP-Y-1" parent="PcJhqCOeO122mSnEiP-Y-0" />
@@ -1712,7 +1712,7 @@
         <mxCell id="GM_3tZ4JmnzQAWIB9VqX-50" value="异常,回调WMS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-79.5" y="1990" as="sourcePoint" />
-            <mxPoint x="399.5" y="1990" as="targetPoint" />
+            <mxPoint x="250" y="1990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GM_3tZ4JmnzQAWIB9VqX-52" value="发送生成流水,记账MQ消息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" target="GM_3tZ4JmnzQAWIB9VqX-51" edge="1">

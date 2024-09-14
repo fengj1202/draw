@@ -1409,7 +1409,7 @@
           <mxGeometry x="45" y="2241" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SgY6rfTaIyUM4yhe0qYo-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-34" vertex="1">
-          <mxGeometry x="45" y="2361" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="2521" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Tlg75l8PQ9xJClncMlim-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-34" vertex="1">
           <mxGeometry x="45" y="481" width="10" height="80" as="geometry" />
@@ -1457,7 +1457,7 @@
           <mxGeometry x="45" y="1841" width="10" height="199" as="geometry" />
         </mxCell>
         <mxCell id="SgY6rfTaIyUM4yhe0qYo-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Tlg75l8PQ9xJClncMlim-37" vertex="1">
-          <mxGeometry x="45" y="2161" width="10" height="479" as="geometry" />
+          <mxGeometry x="45" y="2161" width="10" height="359" as="geometry" />
         </mxCell>
         <mxCell id="Tlg75l8PQ9xJClncMlim-39" value="MQ消息" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="PcJhqCOeO122mSnEiP-Y-1" vertex="1">
           <mxGeometry x="40" y="39" width="100" height="2831" as="geometry" />
@@ -1795,10 +1795,10 @@
             <mxPoint x="410.35" y="2639.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgY6rfTaIyUM4yhe0qYo-25" value="通知上游系统" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" source="Tlg75l8PQ9xJClncMlim-37" edge="1">
+        <mxCell id="SgY6rfTaIyUM4yhe0qYo-25" value="通知上游系统" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" source="Tlg75l8PQ9xJClncMlim-39" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-480" y="2440" as="sourcePoint" />
-            <mxPoint x="-560" y="2440" as="targetPoint" />
+            <mxPoint x="-85.49999999999955" y="2600" as="sourcePoint" />
+            <mxPoint x="-565" y="2600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SgY6rfTaIyUM4yhe0qYo-27" value="同步调下游系统(如:好吃卡信息确认,授信对接,库存生成报损单,生成采购退货单)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1" target="SgY6rfTaIyUM4yhe0qYo-26">
@@ -1844,12 +1844,6 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-80" y="2020" as="sourcePoint" />
             <mxPoint x="-20" y="2020" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fiquL6yUwCwqBN-qEYeb-0" value="MQ消费异常,回写原退货入库单状态" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="PcJhqCOeO122mSnEiP-Y-1" edge="1">
-          <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="409.9200000000004" y="2660" as="sourcePoint" />
-            <mxPoint x="90.08666666666696" y="2660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ffp_Sq9NwYNrTIVlMa3e-2" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="PcJhqCOeO122mSnEiP-Y-1" target="GM_3tZ4JmnzQAWIB9VqX-9">
